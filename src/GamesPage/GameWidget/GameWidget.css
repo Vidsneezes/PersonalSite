@@ -1,0 +1,45 @@
+.GameWidget-Head{
+    width: 732px;
+    height: auto;
+    text-align: left;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: lightseagreen;
+}
+
+.GameWidget-Left{
+    width: 240px;
+    height: 180px;
+    margin-right: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.GameWidget-Right{
+    width: 480px;
+    height: 180px;
+    display: inline-block;
+    background: lightblue;
+    vertical-align: top;
+    border-radius: 25px;
+}
+
+.GameWidget-Image {
+    width: inherit;
+    height: inherit;
+    display: inherit;
+    border-radius: 25px;
+}
+
+.GameWidget-Footer{
+    text-align: left;
+    background: lightcyan;
+    border-radius: 25px;
+}
+
+.GameWidget-Footer-Links{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 12px;
+    
+}

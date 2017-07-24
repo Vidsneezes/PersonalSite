@@ -1,5 +1,24 @@
-li 
+.MainMenu-Head {
+    border-radius: 10px;
+    background: lightgreen;
+    text-align: left;
+}
+
+ul
 {
+    padding-left: 12px;
+    padding-right: 25px;
+    
     color: blue;
     list-style: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover{
+    cursor: pointer;
+    color: red;
+    background: blue;
 }
