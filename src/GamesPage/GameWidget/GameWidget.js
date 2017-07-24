@@ -4,9 +4,25 @@ import './GameWidget.css';
 
 
 class GameWidget extends Component {
+  constructor(props)
+  {
+    super(props);
+    this.state = {
+      hover: false
+    };
+  }
+
 
   clickMe(){
     console.log("clicked");
+  }
+
+  onMouseEnter(){
+
+  }
+
+  onMouseExit(){
+
   }
 
   render() {
@@ -15,7 +31,9 @@ class GameWidget extends Component {
     };
 
     return (
-      <div className="GameWidget-Head" onClick={this.clickMe} style={divStyle}>
+      
+
+      <div className="GameWidget-Head" onClick={this.clickMe} style={divStyle} onMouseEnter={this.onMouseEnter} onMouseExit={this.onMouseExit}>
         <div className="GameWidget-Left">
           <img src={this.props.image} className="GameWidget-Image" alt="logo" />
         </div>
