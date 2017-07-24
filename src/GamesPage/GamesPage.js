@@ -21,7 +21,7 @@ class GamesPage extends Component {
        <GameWidget 
         image = {JimAddict}
         title="Jim Addict" 
-        description="this is goinr to be a long line that wyh i need to test it" 
+        description="A coffee fueled super hero tries to save the kingdom! Save the Kingdom by unlocking the true powers of the coffee bean net!" 
         role="programmer, artist, designer" 
         play="https://vidsneezes.itch.io/jim-addict"
         b_color='#e86011'/>
@@ -29,7 +29,7 @@ class GamesPage extends Component {
         <GameWidget 
         image = {Zultra}
         title="Zultra U" 
-        description="this is goinr to be a long line that wyh i need to test it" 
+        description="You will be tested! A short platformer, our hero tries to pass his Hunter Exam!" 
         role="programmer, artist, designer, composer" 
         play="https://vidsneezes.itch.io/zultrau"
         b_color='#e87c11'/>
