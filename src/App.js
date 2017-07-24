@@ -60,6 +60,9 @@ class App extends Component {
         <div className="App-Column">
           {page}
         </div>
+        <div className="App-Footer">
+          <p>Copyright &copy; 2017 - Oscar Morales</p>
+        </div>
       </div>
     );
   }

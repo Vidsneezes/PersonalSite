@@ -1,24 +1,34 @@
 .MainMenu-Head {
-    border-radius: 10px;
-    background: lightgreen;
+    border-radius: 1px;
+    background: #e20d46;
     text-align: left;
+    padding: 0px;
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 90px;
 }
 
 ul
 {
-    padding-left: 12px;
-    padding-right: 25px;
-    
-    color: blue;
+    padding-left: 2px;
+    color: purple;
     list-style: none;
+    font-size: 20px;
 }
 
 li {
     cursor: pointer;
+    background: black;
+    color:  white;
+    padding-left: 8px;
+    padding-bottom: 3px;
+    margin-left: -3px;
+    margin-bottom: 5px;
 }
 
 li:hover{
     cursor: pointer;
-    color: red;
-    background: blue;
+    color: black;
+    background: orangered;
 }

@@ -1,9 +1,8 @@
 .WI-Head {
-    border-radius: 12px;
-    background: limegreen;
+    border-radius: 2px;
+    background: #e51b09;
     width: 80%;
     padding-left: 9px;
     padding-top: 3px;
     padding-bottom: 3px;
-    border: 3px solid lime;
 }
