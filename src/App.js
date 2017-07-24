@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import WelcomeInterface from './WelcomeInterface';
+import MainMenu from './MainMenu/MainMenu';
 import EmbeddedGist from './Tools/EmbeddedGist';
 import './App.css';
 
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <WelcomeInterface />
+        <MainMenu />
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>

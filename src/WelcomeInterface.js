@@ -5,7 +5,7 @@ class WelcomeInterface extends Component {
     return (
       <div>
         <p>Oscar Morales says...</p>
-        <p>Hello Visitor</p>
+        <p>Hello Visitor, Contact me at moraleszez@gmail.com</p>
       </div>
     );
   }
