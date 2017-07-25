@@ -3,8 +3,8 @@
   "name": "Oscar Morales",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "192x192",
+      "src": "PromoIconPoster.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],

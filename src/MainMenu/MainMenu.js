@@ -3,14 +3,13 @@ import App from '../App.js'
 import './MainMenu.css';
 
 class MainMenu extends Component {
-
   render() {
     return (
       <div className="MainMenu-Head">
         <ul>
-            <li><a onClick={this.props.ToGames}> Games</a></li>
+            <li onClick={this.props.ToGames}><a > Games</a></li>
             <li><a>Code Samples</a></li>
-            <li><a>About Me</a></li>
+            <li onClick={this.props.ToAboutMe}><a >About Me</a></li>
         </ul>
       </div>
     );

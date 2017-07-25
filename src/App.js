@@ -4,6 +4,7 @@ import WelcomeInterface from './WelcomeInterface';
 import MainMenu from './MainMenu/MainMenu';
 import EmbeddedGist from './Tools/EmbeddedGist';
 import GamesPage from './GamesPage/GamesPage';
+import AboutMePage from './AboutMePage/AboutMePage';
 
 import './App.css';
 
@@ -14,27 +15,21 @@ class App extends Component {
       currentPage: "Games"
     }
     this.ToGames = this.ToGames.bind(this);
-    this.ToGameJams = this.ToGameJams.bind(this);
     this.ToAboutMe = this.ToAboutMe.bind(this);
     this.ToCodeSamples = this.ToCodeSamples.bind(this);
-    
   }
 
   ToGames(){
+    console.log("to games");
     this.setState({
       currentPage: "Games"
     });
   }
 
-  ToGameJams(){
-    this.setState({
-      currentPage: "GameJams"
-    });
-  }
-
   ToAboutMe(){
+    console.log("to about me");
     this.setState({
-      currentPage: "AboutMe"
+      currentPage: "About"
     });
   }
 
@@ -49,13 +44,16 @@ class App extends Component {
     if(this.state.currentPage === "Games")
       {
         page = (  <GamesPage  />);
+      }else if(this.state.currentPage === "About")
+      {
+        page = ( <AboutMePage />);
       }
 
     return (
       <div className="App">
         <WelcomeInterface />
         <div className="App-Column">
-          <MainMenu ToGames={this.ToGames} ToGameJams={this.ToGameJams} ToAboutMe={this.ToAboutMe} ToCodeSamples={this.ToCodeSamples} />
+          <MainMenu ToGames={this.ToGames} ToAboutMe={this.ToAboutMe} ToCodeSamples={this.ToCodeSamples} />
         </div>
         <div className="App-Column">
           {page}
