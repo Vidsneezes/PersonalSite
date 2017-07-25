@@ -5,13 +5,15 @@ import ChristmasDashing from '../Assets/GamesPage/ChristmasDashingThumb.png';
 import Zultra from '../Assets/GamesPage/RegularZultra.png';
 import TakeMeAway from '../Assets/GamesPage/TakeMeAway.gif';
 import BurgerForMe from '../Assets/GamesPage/BurgerForMe.png';
-import LostAtBirth from '../Assets/GamesPage/LostAtBirth.gif';
+import LostAtBirth from '../Assets/GamesPage/LostAtBirth.png';
 import ParaCaffiene from '../Assets/GamesPage/ParaCaffiene.png';
 import UltraZultra from '../Assets/GamesPage/UltraZultra.png';
 import UltraZultraScreen from '../Assets/GamesPage/ScreenShots/UltraZultraScreenShot.gif';
 import JimAddictScreen from '../Assets/GamesPage/ScreenShots/JimAddictScreen.gif';
 import ParaCaffieneScreen from '../Assets/GamesPage/ScreenShots/ParaCaffieneScreen.png';
 import BurgerForMeScreen from '../Assets/GamesPage/ScreenShots/BurgerForMeScreen.png';
+import LostAtBirthScreen from '../Assets/GamesPage/ScreenShots/LostAtBirthScreen.gif';
+import ChristmasScreen from '../Assets/GamesPage/ScreenShots/ChristmasScreen.png';
 import './GamesPage.css';
 
 class GamesPage extends Component {
@@ -35,7 +37,7 @@ class GamesPage extends Component {
         role="programmer, artist, designer" 
         play="https://play.google.com/store/apps/details?id=com.vidsneeze.christmasdashing"
         b_color='#e83d12' 
-         imageAlt = {TakeMeAway} />
+         imageAlt = {ChristmasScreen} />
 
        <GameWidget 
         image = {JimAddict}
@@ -61,7 +63,7 @@ class GamesPage extends Component {
         description="Made with SQRbox Studios for A Gamejolt Game Jam . Flip burgers to keep your illegal immigrant family alive! Will you succeed or end up deported ?" 
         role="programmer, designer" 
         play="https://vidsneezes.itch.io/burger-for-me"
-        b_color='#e87c11'
+        b_color='#e89211'
          imageAlt = {BurgerForMeScreen} />
 
         <GameWidget 
@@ -70,7 +72,7 @@ class GamesPage extends Component {
         description="You will be tested! A short platformer, our hero tries to pass his Hunter Exam!" 
         role="programmer, artist, designer, composer" 
         play="https://vidsneezes.itch.io/zultrau"
-        b_color='#e87c11'
+        b_color='#e8b911'
          imageAlt = {TakeMeAway} />
 
        <GameWidget 
@@ -79,8 +81,8 @@ class GamesPage extends Component {
         description="Made for independence day game jam. What is the place? How did you get here? Use the magic wand to find your answers!" 
         role="programmer, artist, designer, composer" 
         play="https://vidsneezes.itch.io/lost-at-birth"
-        b_color='#e87c11'
-         imageAlt = {TakeMeAway} />
+        b_color='#e8e411'
+         imageAlt = {LostAtBirthScreen} />
       
        <GameWidget 
         image = {ParaCaffiene}
@@ -88,7 +90,7 @@ class GamesPage extends Component {
         description="My Nanoreno 2017 entry made with my friend Dennis. Sometimes getting coffee can go very wrong! But will our hero manage to get his coffee or be drowned by social anxiety?!?!" 
         role="writer, composer, artist" 
         play="https://vidsneezes.itch.io/para-caffiene"
-        b_color='#e87c11'
+        b_color='#aee811'
          imageAlt = {ParaCaffieneScreen} />
       </div>
         

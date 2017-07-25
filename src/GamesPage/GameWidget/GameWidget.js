@@ -34,7 +34,7 @@ class GameWidget extends Component {
   }
 
   render() {
-    const divStyle = {
+    var divStyle = {
       background: this.props.b_color,
     };
     var imageLink = this.props.image;

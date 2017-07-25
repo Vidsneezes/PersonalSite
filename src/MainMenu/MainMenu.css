@@ -6,11 +6,12 @@
     margin-top: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-right: 90px;
+    padding-right: 0px;
 }
 
 ul
 {
+    width: 200px;
     padding-left: 2px;
     color: purple;
     list-style: none;
@@ -19,7 +20,7 @@ ul
 
 li {
     cursor: pointer;
-    background: black;
+    background: #252235;
     color:  white;
     padding-left: 8px;
     padding-bottom: 3px;
@@ -29,6 +30,8 @@ li {
 
 li:hover{
     cursor: pointer;
-    color: black;
+    color: #252235;
     background: orangered;
+    margin-left: -20px;
+    
 }
