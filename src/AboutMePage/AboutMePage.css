@@ -2,14 +2,54 @@
     width: 732px;
     height: auto;
     margin-bottom: 4px;
-    background: orange;
+    background: #c42f74;
     border-radius: 3px;
+    margin-left: -20px;
 }
 
 .AboutMe-Inner{
-    width: 600px;
+    width: 550px;
     text-align: left;
     padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 10px;
+    font-size: 22px;
+    background: #ed7192;
+}
+
+.AboutMe-Inner li {
+    cursor: hand;
+    background: #252235;
+    color:  white;
+    padding-left: 8px;
+    padding-bottom: 3px;
+    margin-left: -3px;
+    margin-bottom: 5px;
+}
+
+.AboutMe-Inner li:hover{
+    cursor: hand;
+    color: #252235;
+    background: #db1571;
+    margin-left: -12px;
+}
+
+.AboutMe-Footnote {
+    color: white;
+    background: #252235;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+}
+
+.AboutMe-Footnote:hover {
+    cursor: hand;
+    color: #252235;
+    background: #c42f74;
+    margin-left: -20px;
+    margin-top: -20px;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 0px;
+    
 }

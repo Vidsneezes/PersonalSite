@@ -8,11 +8,14 @@ import AboutMePage from './AboutMePage/AboutMePage';
 
 import './App.css';
 
+const GAMES = "  Games";
+const ABOUTME = "   About Me";
+
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPage: "Games"
+      currentPage: GAMES
     }
     this.ToGames = this.ToGames.bind(this);
     this.ToAboutMe = this.ToAboutMe.bind(this);
@@ -20,16 +23,14 @@ class App extends Component {
   }
 
   ToGames(){
-    console.log("to games");
     this.setState({
-      currentPage: "Games"
+      currentPage: GAMES
     });
   }
 
   ToAboutMe(){
-    console.log("to about me");
     this.setState({
-      currentPage: "About"
+      currentPage: ABOUTME
     });
   }
 
@@ -41,17 +42,17 @@ class App extends Component {
 
   render() {
     var page = (<div></div>);
-    if(this.state.currentPage === "Games")
+    if(this.state.currentPage === GAMES)
       {
         page = (  <GamesPage  />);
-      }else if(this.state.currentPage === "About")
+      }else if(this.state.currentPage === ABOUTME)
       {
         page = ( <AboutMePage />);
       }
 
     return (
       <div className="App">
-        <WelcomeInterface />
+        <WelcomeInterface page={this.state.currentPage} />
         <div className="App-Column">
           <MainMenu ToGames={this.ToGames} ToAboutMe={this.ToAboutMe} ToCodeSamples={this.ToCodeSamples} />
         </div>
