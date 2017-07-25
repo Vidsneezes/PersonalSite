@@ -63,7 +63,7 @@ class GamesPage extends Component {
          imageAlt = {TakeMeAway} />
 
       <GameWidget 
-        image = {TakeMeAway}
+        image = {MiniAlien}
         title="Mini Alien" 
         description="Part of my Mini Games Collection. Play as the rebellion and push the Aliens back! How many stages can you beat?"
         role="programmer, artist, designer, composer" 
