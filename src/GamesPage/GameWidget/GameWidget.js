@@ -10,6 +10,10 @@ class GameWidget extends Component {
     this.state = {
       hover: false
     };
+
+    this.onMouseEnter = this.onMouseEnter.bind(this);
+    this.onMouseExit = this.onMouseExit.bind(this);
+
   }
 
 
@@ -18,24 +22,30 @@ class GameWidget extends Component {
   }
 
   onMouseEnter(){
-
+    this.setState({
+      hover: true
+    });
   }
 
   onMouseExit(){
-
+    this.setState({
+      hover: false
+    });
   }
 
   render() {
     const divStyle = {
       background: this.props.b_color,
     };
-
+    var imageLink = this.props.image;
+    if(this.state.hover)
+    {
+      imageLink = this.props.imageAlt;
+    }
     return (
-      
-
-      <div className="GameWidget-Head" onClick={this.clickMe} style={divStyle} onMouseEnter={this.onMouseEnter} onMouseExit={this.onMouseExit}>
+      <div className="GameWidget-Head" style={divStyle} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseExit}>
         <div className="GameWidget-Left">
-          <img src={this.props.image} className="GameWidget-Image" alt="logo" />
+          <img src={imageLink} className="GameWidget-Image" alt="logo" />
         </div>
         <div className="GameWidget-Right">
           <h1 className="GameWidget-Title">{this.props.title}</h1>
