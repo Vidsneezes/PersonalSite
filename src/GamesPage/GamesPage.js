@@ -48,12 +48,30 @@ class GamesPage extends Component {
         b_color='#e86011'
          imageAlt = {JimAddictScreen} />
 
-      <GameWidget 
+        <GameWidget 
         image = {TakeMeAway}
         title="Take Me Away" 
         description="Become a crazy in Take Me Away. A short fps i made for halloween. You must use your axe to defeat the eyeballs! They are staring! They are staring! Stop staring!" 
         role="programmer, artist, designer, composer" 
         play="https://vidsneezes.itch.io/takemeaway"
+        b_color='#e87c11'
+         imageAlt = {TakeMeAway} />
+
+      <GameWidget 
+        image = {TakeMeAway}
+        title="Mini Alien" 
+        description="Part of my Mini Games Collection. Play as the rebellion and push the Aliens back! How many stages can you beat?"
+        role="programmer, artist, designer, composer" 
+        play="https://play.google.com/store/apps/details?id=com.Vidsneezes.minialien"
+        b_color='#e87c11'
+         imageAlt = {TakeMeAway} />
+
+        <GameWidget 
+        image = {TakeMeAway}
+        title="Mini Getaway" 
+        description="Part of my Mini Games Collection. Tired? take a mini break and enjoy some villian smashing goodness in this endless jump runner."
+        role="programmer, artist, designer, composer" 
+        play="https://play.google.com/store/apps/details?id=com.Vidsneezes.MiniGetaway"
         b_color='#e87c11'
          imageAlt = {TakeMeAway} />
 
