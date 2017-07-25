@@ -16,6 +16,9 @@ import BurgerForMeScreen from '../Assets/GamesPage/ScreenShots/BurgerForMeScreen
 import LostAtBirthScreen from '../Assets/GamesPage/ScreenShots/LostAtBirthScreen.gif';
 import ChristmasScreen from '../Assets/GamesPage/ScreenShots/ChristmasScreen.png';
 import MiniAlienScreen from '../Assets/GamesPage/ScreenShots/MiniAlienScreen.png';
+import MiniGetawayScreen from '../Assets/GamesPage/ScreenShots/MiniGetawayScreen.png';
+import MiniGetaway from '../Assets/GamesPage/MiniGetawayIcon.png';
+import MiniAlien from '../Assets/GamesPage/MiniAlienIcon.png';
 import './GamesPage.css';
 
 class GamesPage extends Component {
@@ -69,13 +72,13 @@ class GamesPage extends Component {
          imageAlt = {MiniAlienScreen} />
 
         <GameWidget 
-        image = {TakeMeAway}
+        image = {MiniGetaway}
         title="Mini Getaway" 
         description="Part of my Mini Games Collection. Tired? take a mini break and enjoy some villian smashing goodness in this endless jump runner."
         role="programmer, artist, designer, composer" 
         play="https://play.google.com/store/apps/details?id=com.Vidsneezes.MiniGetaway"
         b_color='#e87c11'
-         imageAlt = {TakeMeAway} />
+         imageAlt = {MiniGetawayScreen} />
 
       <GameWidget 
         image = {BurgerForMe}
