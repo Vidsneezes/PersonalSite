@@ -34,3 +34,9 @@ li:hover{
     background: orangered;
     margin-left: -20px;
 }
+
+.MainMenuLink {
+    color:lightgreen;
+    text-decoration:  none
+    
+}

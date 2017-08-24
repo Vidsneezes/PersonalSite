@@ -7,18 +7,19 @@ class AboutMePage extends Component {
       <div className="AboutMe-Head">
       <div className="AboutMe-Inner">
       <h2>Hi I’m Oscar Morales an indie developer living in Guatemala!</h2>
-       <h3>I take on roles such as Programmer, Designer, Artist and Composer.</h3><h3> My main bread and butter is programming.</h3>
+       <h3>Programmer Extraordinaire</h3><h3> My main bread and butter is programming.</h3>
 
-       <h4> Currently working on Ultra Zultra. Using Unity3d with C# and visual studio. For this project i’m making all the pixel art, music and code.</h4>
+       <h4> Current creative endeavor is working on Ultra Zultra. Passion video game project.</h4>
       
         <h3>I enjoy learning new programming languages and have experience in:</h3>
         <ul>
-          <li>C#</li>
-          <li>C++</li>
+          <li>C# - 7/10 dogs</li>
           <li>Java</li>
           <li>Javascript</li> 
           <li>Haxe</li>
         </ul>
+
+        <a href = "https://github.com/Vidsneezes">Check out my Github</a>
 
         <h3>Tools wise I been using for more than 3 years in:</h3>
 
