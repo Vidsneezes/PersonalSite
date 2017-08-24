@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import GameWidget from './GameWidget/GameWidget.js';
 import JimAddict from '../Assets/GamesPage/JimAddictThumb.png';
 import ChristmasDashing from '../Assets/GamesPage/ChristmasDashingThumb.png';
-import Zultra from '../Assets/GamesPage/RegularZultra.png';
+import ZultraScreenShot from '../Assets/GamesPage/ScreenShots/ZultraScreenShot.png';
+import Zultra from '../Assets/GamesPage/Zultra.png';
 import TakeMeAway from '../Assets/GamesPage/TakeMeAway.gif';
 import BurgerForMe from '../Assets/GamesPage/BurgerForMe.png';
 import LostAtBirth from '../Assets/GamesPage/LostAtBirth.png';
@@ -14,6 +15,10 @@ import ParaCaffieneScreen from '../Assets/GamesPage/ScreenShots/ParaCaffieneScre
 import BurgerForMeScreen from '../Assets/GamesPage/ScreenShots/BurgerForMeScreen.png';
 import LostAtBirthScreen from '../Assets/GamesPage/ScreenShots/LostAtBirthScreen.gif';
 import ChristmasScreen from '../Assets/GamesPage/ScreenShots/ChristmasScreen.png';
+import MiniAlienScreen from '../Assets/GamesPage/ScreenShots/MiniAlienScreen.png';
+import MiniGetawayScreen from '../Assets/GamesPage/ScreenShots/MiniGetawayScreen.png';
+import MiniGetaway from '../Assets/GamesPage/MiniGetawayIcon.png';
+import MiniAlien from '../Assets/GamesPage/MiniAlienIcon.png';
 import './GamesPage.css';
 
 class GamesPage extends Component {
@@ -58,22 +63,22 @@ class GamesPage extends Component {
          imageAlt = {TakeMeAway} />
 
       <GameWidget 
-        image = {TakeMeAway}
+        image = {MiniAlien}
         title="Mini Alien" 
         description="Part of my Mini Games Collection. Play as the rebellion and push the Aliens back! How many stages can you beat?"
         role="programmer, artist, designer, composer" 
         play="https://play.google.com/store/apps/details?id=com.Vidsneezes.minialien"
         b_color='#e87c11'
-         imageAlt = {TakeMeAway} />
+         imageAlt = {MiniAlienScreen} />
 
         <GameWidget 
-        image = {TakeMeAway}
+        image = {MiniGetaway}
         title="Mini Getaway" 
         description="Part of my Mini Games Collection. Tired? take a mini break and enjoy some villian smashing goodness in this endless jump runner."
         role="programmer, artist, designer, composer" 
         play="https://play.google.com/store/apps/details?id=com.Vidsneezes.MiniGetaway"
         b_color='#e87c11'
-         imageAlt = {TakeMeAway} />
+         imageAlt = {MiniGetawayScreen} />
 
       <GameWidget 
         image = {BurgerForMe}
@@ -85,13 +90,13 @@ class GamesPage extends Component {
          imageAlt = {BurgerForMeScreen} />
 
         <GameWidget 
-        image = {Zultra}
+        image = {ZultraScreenShot}
         title="Zultra U" 
         description="You will be tested! A short platformer, our hero tries to pass his Hunter Exam!" 
         role="programmer, artist, designer, composer" 
         play="https://vidsneezes.itch.io/zultrau"
         b_color='#e8b911'
-         imageAlt = {TakeMeAway} />
+         imageAlt = {Zultra} />
 
        <GameWidget 
         image = {LostAtBirth}
